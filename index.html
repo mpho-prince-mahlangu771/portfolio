@@ -2,11 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Prince Mahlangu</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Prince Mahlangu</title>
 </head>
 <body>
-    <p>random paragram and and</p>
-    <h1>Big Heading</h1>
+    <div class="header-container">
+        <div class="item-1">
+            <img src="./assets/logos/Mpho Mahlangu-3.png" alt="home logo">
+        </div>
+        <div class="item-2">
+            <nav class="nav-bar">
+                <ul>
+                    <a href="./index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#hero-section">
+                        <li>ABOUT ME</li>
+                    </a>
+                    <a href="#footer">
+                        <li>CONTACT US</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <div class="embed-container">
+            <!--My video goes below-->
+                <iframe width="900" height="515" src="https://www.youtube.com/embed/H14bBuluwB8" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe> 
+        </div>
+        <section id="hero-section" class="bio-container">
+            <article>
+                <h1>Prince Mahlangu</h1>
+                <p>
+                    Hello my friend, welcome to my website! I'm a dude called Prince. 
+                    I'm an aspiring president of the Republic of South Africa...Just kidding😂.
+                     I'm actually an aspiring high value full-stack software engineer and tech entrepreneur.
+                    I graduated with a BSc in computer sciences (NQF 7) which sharpened my analytical, logical,
+                    problem-solving, and systems-thinking skills. 
+                    I have previous practical experience
+                    with several programming language including HTML, CSS, JavaScript, Python, and Java but 
+                    I'm looking for an opportunity to improve my knowledge and practical application of 
+                    these skills in a real-world environment.
+                </p>
+            </article>
+            <figure class="bio-image">
+                <img src="./assets/images/IMG_20220201_100340.jpg" alt="bio image">
+            </figure>
+        </section>
+    </main>
+    <footer id="footer">
+        <div>
+            <div>
+                <h3>Address</h3>
+                <address class="user-address">
+                    Groblersdal <br>
+                    Sekhukhune,<br>
+                    Limpopo 
+                </address>
+            </div>
+        </div>
+        <div>
+            <h3>Quick links</h3>
+            <a href="#">About me</a><br>
+            <a href="#">My hobbies</a><br>
+            <a href="#">What I'm busy with currently</a>
+        </div>
+        <div>
+            <h3>Social media </h3>
+            <a href="#footer">
+                <i class="fab fa-whatsapp-square fa-2x"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            
+        </div>
+    </footer>
 </body>
 </html>
